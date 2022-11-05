@@ -4,6 +4,8 @@ import tensorflow as tf
 from sklearn.decomposition import PCA
 from tensorflow.keras.models import Model
 from tensorflow.keras import layers, losses
+
+#pca and autoencoder to shrinkn data
 pca32 = ['pca32-1', 'pca32-2', 'pca32-3', 'pca32-4']
 autoencoder32 = ['autoencoder32-1', 'autoencoder32-2', 'autoencoder32-3', 'autoencoder32-4']
 pca30 = ['pca30-1', 'pca30-2', 'pca30-3', 'pca30-4']
