@@ -12,6 +12,7 @@ def square_loss(labels, predictions):
     loss = loss / len(labels)
     return loss
 
+#this is a cross entropy function
 def cross_entropy(labels, predictions):
     loss = 0
     for l, p in zip(labels, predictions):
